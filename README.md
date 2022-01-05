@@ -110,4 +110,4 @@ This project is inspired by:
 [issues-shield]: https://img.shields.io/github/issues/philips-labs/action-delete-artifacts.svg?style=for-the-badge
 [issues-url]: https://github.com/philips-labs/action-delete-artifacts/issues
 [license-shield]: https://img.shields.io/github/license/philips-labs/action-delete-artifacts.svg?style=for-the-badge
-[license-url]: https://github.com/philips-labs/action-delete-artifacts/blob/main/LICENSE
+[license-url]: https://github.com/philips-labs/action-delete-artifacts/blob/master/LICENSE
