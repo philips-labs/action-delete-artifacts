@@ -1,0 +1,31 @@
+name: Delete workflow artifact
+description: Delete an artifact associated with given workflow and commit
+author: dawidd6, Brend-Smits
+branding:
+  icon: delete
+  color: gray-dark
+inputs:
+  github_token:
+    description: GitHub token
+    required: false
+    default: ${{github.token}}
+  workflow:
+    description: Workflow name
+    required: true
+  workflow_conclusion:
+    description: |
+      Wanted status or conclusion to search for in recent runs
+
+      https://docs.github.com/en/free-pro-team@latest/rest/reference/actions#list-workflow-runs
+    required: false
+    default: success
+  repo:
+    description: Repository name with owner (like actions/checkout)
+    required: false
+    default: ${{github.repository}}
+  name:
+    description: Artifact name (delete all artifacts in not specified)
+    required: false
+runs:
+  using: node12
+  main: dist/index.js
