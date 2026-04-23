@@ -2,7 +2,7 @@
   "name": "action-delete-artifacts",
   "main": "main.js",
   "dependencies": {
-    "@actions/core": "^1.9.1",
+    "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.0"
   }
 }
